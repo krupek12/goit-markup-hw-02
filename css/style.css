@@ -1,0 +1,127 @@
+:root {
+  --logo-color: #2196f3;
+  --background-color: #e5e5e5;
+  --text-color: black;
+  --box-1-color: #2f303a;
+  --box-2-color: #f5f4fa;
+  --color-text-contact: #757575;
+  --text-color-2: #ffffff;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.link :hover {
+  color: #2196f3;
+}
+
+.logo {
+  font-family: Raleway;
+  text-decoration: none;
+  font-size: 26px;
+}
+.logo-color {
+  color: #2196f3;
+  font-weight: 700px;
+}
+.logo-color-2 {
+  color: black;
+  font-weight: 700px;
+}
+.menu-link {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500px;
+}
+.text-link {
+  color: #212121;
+  text-decoration: none;
+}
+.menu-link-item {
+  list-style-type: none;
+}
+.contact {
+  color: #212121;
+  list-style-type: none;
+}
+.text-contact {
+  color: #757575;
+}
+.main-block {
+  background-color: var(--box-1-color);
+}
+.main-headline {
+  color: var(--text-color-2);
+  font-size: 44px;
+  font-weight: 900px;
+  text-align: center;
+}
+.text-button {
+  color: var(--text-color-2);
+  font-size: 16px;
+  font-weight: 700;
+}
+.button-block {
+  width: 200px;
+  height: 50px;
+  background-color: #2196f3;
+  border-radius: 4px;
+  box-shadow: 0px, 4px;
+  border-color: #2196f3;
+  cursor: pointer;
+}
+.description {
+  font-size: 14px;
+  font-weight: 400px;
+  line-height: 1.71;
+  color: #757575;
+}
+.secondary-headline {
+  font-weight: 700px;
+  color: #212121;
+}
+.description-list {
+  list-style-type: none;
+}
+.pictures {
+  list-style-type: none;
+}
+.main-headline-2 {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+.picture-list {
+  list-style-type: none;
+}
+.second-block {
+  background-color: #f5f4fa;
+}
+.second-picture-list {
+  list-style-type: none;
+}
+.footer-block {
+  background-color: #2f303a;
+}
+address {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400px;
+  font-style: normal;
+}
+.contact-text {
+  color: #ffffff;
+  opacity: 0.6;
+  font-size: 14px;
+  font-weight: 400px;
+}
+.logo-color-3 {
+  color: white;
+  font-weight: 700px;
+}
