@@ -166,6 +166,7 @@ address {
   background-color: var(--box-2-color);
   border-color: var(--box-2-color);
   cursor: pointer;
+  border-radius: 4px;
 }
 .button-box:hover {
   color: var(--logo-color);
