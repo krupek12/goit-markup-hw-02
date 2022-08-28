@@ -83,7 +83,6 @@ h1 {
 }
 .button-block {
   display: block;
-  color: var(--text-color-2);
   display: block;
   background-color: var(--logo-color);
   box-shadow: rgba(0, 0, 0, 0.15);
@@ -97,6 +96,7 @@ h1 {
   text-align: center;
   font-size: 16px;
   font-weight: 700px;
+  color: var(--text-color-2);
 }
 .description-list {
   font-size: 14px;
@@ -169,7 +169,8 @@ address {
   border-radius: 4px;
 }
 .button-box:hover {
-  color: var(--logo-color);
+  background-color: var(--logo-color);
+  color: var(--text-color-2);
 }
 .text-box {
   font-weight: 500px;
