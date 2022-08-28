@@ -86,11 +86,11 @@ h1 {
   color: var(--text-color-2);
   display: block;
   background-color: var(--logo-color);
-  border-color: var(--logo-color);
   box-shadow: rgba(0, 0, 0, 0.15);
   width: 200px;
   height: 50px;
   border-radius: 4px;
+  cursor: pointer;
 }
 .text-button {
   display: block;
@@ -161,9 +161,14 @@ address {
   list-style-type: none;
   display: flex;
 }
+
 .button-box {
   background-color: var(--box-2-color);
   border-color: var(--box-2-color);
+  cursor: pointer;
+}
+.button-box:hover {
+  color: var(--logo-color);
 }
 .text-box {
   font-weight: 500px;
